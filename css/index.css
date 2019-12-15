@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'AvenirBlack';
+	src: url('css/font/avenir-black.ttf');
+}
+
+.box {
+	width: 1200px;
+	margin: auto auto;
+}
+
+.box-box {
+	width: 398px;
+	height: 400px;
+	overflow: hidden;
+	float: left;
+}
+
+.box-p {
+	width: 198px;
+	height: 40px;
+	font-family: AvenirBlack;
+	font-size: 40px;
+	float: left;
+	overflow: hidden;
+}
+
+.t1 {
+	transition: All 0.4s ease-in-out;
+}
+
+.t1:hover {
+	transform: rotate(360deg);
+}
+
+.t2 {
+	cursor: pointer;
+	transition: all 1.6s;
+}
+
+.t2:hover {
+	transform: scale(1.4);
+}
+
+.t3 {
+	transition: All 3.4s ease-in-out;
+}
+
+.t3:hover {
+	transform: rotate(360deg) scale(2.2);
+}
+
+.t4:hover {
+	color: red;
+}
+
+.t5 {
+	text-transform: uppercase;
+}
+
+.t5:hover {
+	background: black;
+	color: white;
+}
+
+.t10 {
+	transition: All 0.4s ease-in-out;
+}
+
+.t10:hover {
+	transform: translate(0, -50px);
+}
+
+.t11 {
+	border: 2px solid transparent;
+}
+
+.t11:hover {
+	border: 2px solid red;
+}
+
+.t12 {
+	opacity: 1;
+}
+
+.t12:hover {
+	opacity: 0.6;
+}

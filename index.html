@@ -52,13 +52,10 @@
 		let timer = 0
 		var index=0
 		 function mOver (obj) {
-            //根据id获取p标签，设置内容
             obj.innerText = "Change";
         }
 		
 		function mOver1 (obj) {
-			
-		    //根据id获取p标签，设置内容
 			obj.innerText=""
 			tId=setInterval(function(){
 				obj.append(str.charAt(index));
@@ -75,12 +72,11 @@
 			  timer = setTimeout(change(obj), 200)
 			}
 			else {
-			  obj.innerHTML = str//结束打字,移除 _ 光标
+			  obj.innerHTML = str
 			  clearTimeout(timer)
 			}
 		}
 		function mOut (obj) {
-		    //根据id获取p标签，设置内容
 		    obj.innerText = "MY CATS";
 		};
 	</script>

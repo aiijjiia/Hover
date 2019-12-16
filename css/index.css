@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'AvenirBlack';
-	src: url('css/font/avenir-black.ttf');
+	src: url('font/avenir-black.ttf');
 }
 
 .box {
@@ -17,7 +17,7 @@
 
 .box-p {
 	width: 198px;
-	height: 40px;
+	height: 45px;
 	font-family: AvenirBlack;
 	font-size: 40px;
 	float: left;
@@ -85,3 +85,4 @@
 .t12:hover {
 	opacity: 0.6;
 }
+
